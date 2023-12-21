@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="praktikDataSet3" targetNamespace="http://tempuri.org/praktikDataSet3.xsd" xmlns:mstns="http://tempuri.org/praktikDataSet3.xsd" xmlns="http://tempuri.org/praktikDataSet3.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop" attributeFormDefault="qualified" elementFormDefault="qualified">
+  <xs:annotation>
+    <xs:appinfo source="urn:schemas-microsoft-com:xml-msdatasource">
+      <DataSource DefaultConnectionIndex="0" FunctionsComponentName="QueriesTableAdapter" Modifier="AutoLayout, AnsiClass, Class, Public" SchemaSerializationMode="IncludeSchema" xmlns="urn:schemas-microsoft-com:xml-msdatasource">
+        <Connections>
+          <Connection AppSettingsObjectName="Settings" AppSettingsPropertyName="praktikConnectionString1" ConnectionStringObject="" IsAppSettingsProperty="true" Modifier="Assembly" Name="praktikConnectionString1 (Settings)" ParameterPrefix="@" PropertyReference="ApplicationSettings.praktika_galaktika.Properties.Settings.GlobalReference.Default.praktikConnectionString1" Provider="System.Data.SqlClient" />
+        </Connections>
+        <Tables>
+          <TableAdapter BaseClass="System.ComponentModel.Component" DataAccessorModifier="AutoLayout, AnsiClass, Class, Public" DataAccessorName="потребляйкиныTableAdapter" GeneratorDataComponentClassName="потребляйкиныTableAdapter" Name="потребляйкины" UserDataComponentName="потребляйкиныTableAdapter">
+            <MainSource>
+              <DbSource ConnectionRef="praktikConnectionString1 (Settings)" DbObjectName="praktik.dbo.потребляйкины" DbObjectType="View" FillMethodModifier="Public" FillMethodName="Fill" GenerateMethods="Both" GenerateShortCommands="false" GeneratorGetMethodName="GetData" GeneratorSourceName="Fill" GetMethodModifier="Public" GetMethodName="GetData" QueryType="Rowset" ScalarCallRetval="System.Object, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" UseOptimisticConcurrency="true" UserGetMethodName="GetData" UserSourceName="Fill">
+                <SelectCommand>
+                  <DbCommand CommandType="Text" ModifiedByUser="false">
+                    <CommandText>SELECT id, Клиент, Риэлтор, ТипОбъектаНедвижимости, МинимальнаяЦена, МаксимальнаяЦена, МинимальнаяПлощадь, МаксимальнаяПлощадь FROM потребляйкины</CommandText>
+                    <Parameters />
+                  </DbCommand>
+                </SelectCommand>
+              </DbSource>
+            </MainSource>
+            <Mappings>
+              <Mapping SourceColumn="id" DataSetColumn="id" />
+              <Mapping SourceColumn="Клиент" DataSetColumn="Клиент" />
+              <Mapping SourceColumn="Риэлтор" DataSetColumn="Риэлтор" />
+              <Mapping SourceColumn="ТипОбъектаНедвижимости" DataSetColumn="ТипОбъектаНедвижимости" />
+              <Mapping SourceColumn="МинимальнаяЦена" DataSetColumn="МинимальнаяЦена" />
+              <Mapping SourceColumn="МаксимальнаяЦена" DataSetColumn="МаксимальнаяЦена" />
+              <Mapping SourceColumn="МинимальнаяПлощадь" DataSetColumn="МинимальнаяПлощадь" />
+              <Mapping SourceColumn="МаксимальнаяПлощадь" DataSetColumn="МаксимальнаяПлощадь" />
+            </Mappings>
+            <Sources />
+          </TableAdapter>
+        </Tables>
+        <Sources />
+      </DataSource>
+    </xs:appinfo>
+  </xs:annotation>
+  <xs:element name="praktikDataSet3" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:EnableTableAdapterManager="True" msprop:Generator_DataSetName="praktikDataSet3" msprop:Generator_UserDSName="praktikDataSet3">
+    <xs:complexType>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element name="потребляйкины" msprop:Generator_TableClassName="потребляйкиныDataTable" msprop:Generator_TableVarName="tableпотребляйкины" msprop:Generator_RowChangedName="потребляйкиныRowChanged" msprop:Generator_TablePropName="потребляйкины" msprop:Generator_RowDeletingName="потребляйкиныRowDeleting" msprop:Generator_RowChangingName="потребляйкиныRowChanging" msprop:Generator_RowEvHandlerName="потребляйкиныRowChangeEventHandler" msprop:Generator_RowDeletedName="потребляйкиныRowDeleted" msprop:Generator_RowClassName="потребляйкиныRow" msprop:Generator_UserTableName="потребляйкины" msprop:Generator_RowEvArgName="потребляйкиныRowChangeEvent">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="id" msprop:Generator_ColumnVarNameInTable="columnid" msprop:Generator_ColumnPropNameInRow="id" msprop:Generator_ColumnPropNameInTable="idColumn" msprop:Generator_UserColumnName="id" type="xs:int" />
+              <xs:element name="Клиент" msprop:Generator_ColumnVarNameInTable="columnКлиент" msprop:Generator_ColumnPropNameInRow="Клиент" msprop:Generator_ColumnPropNameInTable="КлиентColumn" msprop:Generator_UserColumnName="Клиент" type="xs:int" />
+              <xs:element name="Риэлтор" msprop:Generator_ColumnVarNameInTable="columnРиэлтор" msprop:Generator_ColumnPropNameInRow="Риэлтор" msprop:Generator_ColumnPropNameInTable="РиэлторColumn" msprop:Generator_UserColumnName="Риэлтор" type="xs:int" />
+              <xs:element name="ТипОбъектаНедвижимости" msprop:Generator_ColumnVarNameInTable="columnТипОбъектаНедвижимости" msprop:Generator_ColumnPropNameInRow="ТипОбъектаНедвижимости" msprop:Generator_ColumnPropNameInTable="ТипОбъектаНедвижимостиColumn" msprop:Generator_UserColumnName="ТипОбъектаНедвижимости">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="МинимальнаяЦена" msprop:Generator_ColumnVarNameInTable="columnМинимальнаяЦена" msprop:Generator_ColumnPropNameInRow="МинимальнаяЦена" msprop:Generator_ColumnPropNameInTable="МинимальнаяЦенаColumn" msprop:Generator_UserColumnName="МинимальнаяЦена" type="xs:int" minOccurs="0" />
+              <xs:element name="МаксимальнаяЦена" msprop:Generator_ColumnVarNameInTable="columnМаксимальнаяЦена" msprop:Generator_ColumnPropNameInRow="МаксимальнаяЦена" msprop:Generator_ColumnPropNameInTable="МаксимальнаяЦенаColumn" msprop:Generator_UserColumnName="МаксимальнаяЦена" type="xs:int" minOccurs="0" />
+              <xs:element name="МинимальнаяПлощадь" msprop:Generator_ColumnVarNameInTable="columnМинимальнаяПлощадь" msprop:Generator_ColumnPropNameInRow="МинимальнаяПлощадь" msprop:Generator_ColumnPropNameInTable="МинимальнаяПлощадьColumn" msprop:Generator_UserColumnName="МинимальнаяПлощадь" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="МаксимальнаяПлощадь" msprop:Generator_ColumnVarNameInTable="columnМаксимальнаяПлощадь" msprop:Generator_ColumnPropNameInRow="МаксимальнаяПлощадь" msprop:Generator_ColumnPropNameInTable="МаксимальнаяПлощадьColumn" msprop:Generator_UserColumnName="МаксимальнаяПлощадь" minOccurs="0">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:maxLength value="50" />
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:choice>
+    </xs:complexType>
+    <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+      <xs:selector xpath=".//mstns:потребляйкины" />
+      <xs:field xpath="mstns:id" />
+    </xs:unique>
+  </xs:element>
+</xs:schema>

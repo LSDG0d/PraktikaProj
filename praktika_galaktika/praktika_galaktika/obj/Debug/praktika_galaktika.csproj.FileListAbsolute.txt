@@ -1,0 +1,15 @@
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\bin\Debug\praktika_galaktika.exe.config
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\bin\Debug\praktika_galaktika.exe
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\bin\Debug\praktika_galaktika.pdb
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\bin\Debug\Microsoft.SqlServer.ConnectionDlg.Core.dll
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\bin\Debug\Microsoft.SqlServer.Tools.Extensibility.dll
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\bin\Debug\ru\Microsoft.SqlServer.ConnectionDlg.Core.resources.dll
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\bin\Debug\ru\Microsoft.SqlServer.Tools.Extensibility.resources.dll
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\obj\Debug\praktika_galaktika.csproj.AssemblyReference.cache
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\obj\Debug\praktika_galaktika.Form1.resources
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\obj\Debug\praktika_galaktika.Properties.Resources.resources
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\obj\Debug\praktika_galaktika.csproj.GenerateResource.cache
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\obj\Debug\praktika_galaktika.csproj.CoreCompileInputs.cache
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\obj\Debug\praktika_galaktika.csproj.CopyComplete
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\obj\Debug\praktika_galaktika.exe
+C:\Users\LSDGod\source\repos\praktika_galaktika\praktika_galaktika\obj\Debug\praktika_galaktika.pdb
